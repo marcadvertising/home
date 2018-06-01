@@ -1,0 +1,140 @@
+section {
+    min-height: 100vh;
+}
+
+.section1 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(top-min-min.jpeg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(top-min-min.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section2 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(btm-min-min.jpeg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(btm-min-min.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.overley {
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    box-direction: normal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-pack: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: left;
+}
+
+.click:link,
+.click:visited {
+    color: white;
+    border-radius: 100px;
+    -webkit-transition: ease all .2s;
+    transition: ease all .2s;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.click:hover,
+.click:active {
+    background-color: #6d9590;
+}
+
+.bg {
+    background-color: #29D9C3;
+}
+
+.cl {
+    color: #29D9C3;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.input {
+    border-radius: 100px;
+    width: 30.33333%;
+    margin: 5px 5px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.form-btn {
+    min-width: 30.33333%;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .input {
+        width: 100%;
+    }
+    .form-btn {
+        width: 100%;
+    }
+}
+
+.pic {
+    width: 150px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+.infusion-field {
+    display: inline;
+}
+
+.testaminals {
+    padding: 5rem 0;
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 1.7rem
+    }
+}
